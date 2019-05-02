@@ -16,6 +16,7 @@ Now, it is time for us to get the data ready to be used in building our model. W
 ## Train-and-test data
 In this dataset, we just have one bulk data, and there is no separate dataset for testing our model. Any model, after it is built, should be tested on a new data that it has never seen during the training - that's the reason we'd be splitting the input dataset into two sets - 'training-set' and 'testing-set'. We train the model using the training data, and run the model on test data to see its performance on unseen data. 
 
-##
+## Building Model(s)
+Since we are going to predict out of the three classes of Iris flowers, this cleary is a Classification problem. Instead of building just one model, we'd be building 1 - 3 models, to kind of compare the performances among diffrent ones. After the model is built, and a prediction is made, we'd be calculating the 'accuracy_score' of each of our models. This score tells us how well the model has performed on new data (test data). Depending upon the score, we can further tune the hyperparameters of the model to get a better accuracy score. 
 
 
